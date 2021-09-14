@@ -855,7 +855,14 @@ body.no-scroll {
 .timetable {
   padding: 40px 0px;
 }
-
+.surganova__info-href{
+  color: #000;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.surganova__info-href:hover{
+  color: #000;
+}
 .surganova__info {
   height: 300px;
   width: 100%;
