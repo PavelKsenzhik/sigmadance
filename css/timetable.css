@@ -857,7 +857,7 @@ body.no-scroll {
 }
 
 .surganova__info {
-  height: 200px;
+  height: 300px;
   width: 100%;
   margin-bottom: 15px;
   display: -webkit-box;
@@ -893,6 +893,16 @@ body.no-scroll {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
+}
+
+.surganova__info-descr-item_main {
+  font-weight: 700;
+}
+
+.surganova__info-descr-item {
+  margin-left: 40px;
+  padding-top: 10px;
+  list-style-type: disc;
 }
 
 .table {
@@ -1081,6 +1091,10 @@ body.no-scroll {
 }
 
 @media (max-width: 1040px) {
+  .surganova__info {
+    height: 330px;
+  }
+
   .surganova__info-text {
     width: 60%;
   }
@@ -1148,7 +1162,7 @@ body.no-scroll {
 
 @media (max-width: 768px) {
   .surganova__info {
-    height: 200px;
+    height: 350px;
   }
 
   .surganova__info-text {
@@ -1301,6 +1315,10 @@ body.no-scroll {
   .icon-inst:hover {
     height: 26px;
     width: 21px;
+  }
+
+  .surganova__info {
+    height: 450px;
   }
 }
 
