@@ -1,8 +1,8 @@
 
 function Branches() {
   return (
-    <div className="App">
-
+    <div className="branches">
+      <p>branches</p>
     </div>
   );
 }
