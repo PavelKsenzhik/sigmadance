@@ -1075,6 +1075,9 @@ body.no-scroll {
   .descr {
     line-height: 20px;
   }
+  .table-wrapper {
+    overflow-x: auto;
+  }
 }
 
 @media (max-width: 1050px) {
