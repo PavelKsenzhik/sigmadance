@@ -631,6 +631,11 @@ body.no-scroll {
   width: 100%;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo-link {
   position: relative;
   display: -webkit-box;
@@ -878,6 +883,7 @@ body.no-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -940,6 +946,59 @@ body.no-scroll {
 .footer__text {
   color: #fff;
   font-size: 14px;
+}
+
+
+.contacts {
+  padding-bottom: 40px;
+}
+
+.contacts__link {
+  color: #000;
+  transition-duration: 0.3s;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+}
+
+.contacts__link:hover {
+  font-size: 18px;
+  color: #000;
+}
+
+.contacts__link:hover .contacts__icon {
+  height: 54px;
+  width: 54px;
+}
+
+.contacts__subtitle {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contacts__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts__row {
+  width: 50%;
+  margin: 15px 0;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.contacts__row._active {
+  opacity: 1;
+}
+
+.contacts__icon {
+  margin-right: 8px;
+  height: 48px;
+  width: 48px;
+  transition-duration: 0.3s;
 }
 
 @media (max-width: 1450px) {
@@ -1063,6 +1122,21 @@ body.no-scroll {
 
   .footer__text {
     font-size: 12px;
+  }
+
+  .contacts__row {
+    width: 100%;
+  }
+
+  .contacts__icon {
+    height: 38px;
+    width: 38px;
+    margin-right: 12px;
+  }
+
+  .contacts__link:hover .contacts__icon {
+    height: 44px;
+    width: 44px;
   }
 }
 
