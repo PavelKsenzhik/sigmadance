@@ -1324,7 +1324,7 @@ body.no-scroll {
 }
 
 .swiper-slide-visible {
-  opacity: 1;
+  opacity: 1!important;
 }
 
 .image-slider__image {
